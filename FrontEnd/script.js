@@ -8,7 +8,7 @@ form.addEventListener("submit", async function (e) {
   const password = document.getElementById("password").value.trim();
 
   try {
-    const response = await fetch("https://localhost:7164/api/Api/login", {
+    const response = await fetch("https://testtask-api-n4lg.onrender.com/api/Api/login", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
